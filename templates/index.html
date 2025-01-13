@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Mazid's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='mazid.jpg') }}" alt="Mohammad Mazid's Photo">
+        <h1>Mohammad Mazid</h1>
+    </header>
+
+    <section>
+        <center><h2>About Me</h2></center>
+        <p>Hello! I'm Mohammad Mazid, a passionate Full Stack Developer, Machine Learning and AI enthusiast. I specialize in building full-stack applications and developing ML solutions for real-world problems.</p>
+    </section>
+    <section>
+        <center><h2>Education</h2></center>
+        <p>Currently pursuing 4th year, Bachelor of Technology in the domain of Artificial Intelligence and Data Science at Seshadri Rao Gudlavalleru Engineering College with a CGPA of 8.4</p>
+    </section>
+
+
+    <section id="skills">
+        <center><h2>Skills</h2></center>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>MongoDB</li>
+            <li>SQL</li>
+            <li>PHP</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>JQuery</li>
+            <li>Bootstrap</li>
+
+        </ul>
+    </section>
+    <section>
+    <center><h2>Hands-on-Experience</h2></center>
+        <div class="project">
+           <h3>1. Electronic Arts Software Engineering virtual experience program on Forage - January 2025</h3>
+<ul>
+ <li>Proposed a new feature for the EA Sports College Football and wrote a Feature Proposal describing it to other stakeholders.</li>
+ <li>Built a class diagram and created a header file in C++ with class definitions for each object.</li>
+ <li>Patched a bugfix and optimized the EA Sports College Football codebase by implementing an improved data structure.</li>
+</ul>
+        <center><a href="https://drive.google.com/file/d/1Pq9mW1dgSW4G__Cpw7b-5ggQ9y0si6_X/view?usp=sharing">Certificate</a></center>
+        </div>
+        <div class="project">
+            <h3>2. Commonwealth Bank Introduction to Software Engineering Job Simulation on Forage - January 2025</h3>
+ <ul>
+  <li>Completed a job simulation involving web development and cybersecurity for the Commonwealth Bank Software Engineering Program.</li>
+  <li>Developed proficiency in HTML and CSS, leveraging these languages to create and style a responsive web page adhering to specific branding guidelines.</li>
+  <li>Acquired foundational knowledge in financial cybersecurity principles, synthesizing complex information into clear, actionable advice for enhancing client security.</li>
+  <li>Explored web hosting security measures, drafting a comprehensive proposal on secure hosting practices to accommodate future website expansions and protect against potential cyber threats.</li>
+ </ul>
+         <center><a href="https://drive.google.com/file/d/1tcu0WRDugmiMRlCNXEjdXKVLidd69siD/view?usp=sharing">Certificate</a></center>
+         </div>
+         <div class="project">
+            <h3>3. Deloitte Australia Technology Job Simulation on Forage - January 2025</h3>
+ <ul>
+  <li>Completed a job simulation involving data analysis for Deloitte’s Technology team.</li>
+  <li>Created a data dashboard using Tableau. </li>
+  <li>Wrote a proposal for a client project to create a functioning dashboard.</li>
+  <li>Used Excel to classify data and draw business conclusions.</li>
+ </ul>
+         <center><a href="https://drive.google.com/file/d/1qTgB9cT-jTnY7zCnFL-Hm_L7BgbW2xA1/view?usp=sharing">Certificate</a></center>
+         </div>
+
+
+    </section>    
+
+    <section>
+        <center><h2>Internships</h2></center>
+        <div class="internship">
+            <h3>Smartbridge</h3>
+            <p><strong>Role:</strong> Intern</p>
+            <p><strong>Domain:</strong> Full Stack Development (MERN)</p>
+            <p><strong>Duration:</strong> May 2024 - June 2024</p>
+            <p><strong>Skills Gained:</strong> Developed and maintained static websites. Worked with MongoDB, Express.js, React.js, Node.js.</p>
+            <center><a href="https://drive.google.com/file/d/1aky6qow_NqTM8F3u-UpxSkbmUBZkjGBF/view?usp=drive_link" class="btn">Certificate</a></center>
+        </div>
+        <div class="internship">
+            <h3>Smartbridge</h3> 
+            <p><strong>Role:</strong> Intern</p>
+            <p><strong>Domain:</strong>Salesforce</p>
+            <p><strong>Duration:</strong> May 2023 - June 2023</p>
+            <p><strong>Skills Gained:</strong> Gained insights into how Salesforce is utilized across various industries, such as sales ,marketing customer
+                services etc.
+                Gained knowledge about how to maintain the customer details.
+                Completed Developer super set badge some modules and various tasks.</p>
+            <center><a href="https://drive.google.com/file/d/1beuHUyeIgHWvtFTKSATEu7RJR2hD-JGV/view?usp=drive_link" class="btn">Certificate</a><br>
+                <a href="https://www.salesforce.com/trailblazer/mmazid2" class="btn">Salesforce Profile</a>
+            </center>
+        </div>
+    </section>
+
+    <section>
+        <center><h2>Projects</h2></center>
+        <div class="project">
+            <u><h3>1. Machine Learning Projects</h3></u>
+            <center><img src="{{ url_for('static', filename='cddap.jpg') }}" alt="pic"></center>
+            <h4>Project 1: Crop Disease Detection and Precaution Management - 2024</h4>
+            <p>Detects diseases in crops using CNN-VGG19, with recommendations for precautions.</p>
+            <p><b>Technologies used: Python | Django | CNN |</b></p>
+        <center><a href="https://github.com/Mazid2003/Crop-disease-detection-using-CNN">GitHub</a></center>
+        </div>
+        <div class="project">
+        <center><img src="{{ url_for('static', filename='logo.jpg') }}" alt="Mohammad Mazid's Photo"></center>
+            <h4>Project 2: Logo Detection - 2023</h4>
+            <p>A model was developed using CNN to detect original logos, aiming to curb the production of counterfeit brands
+                 and enhance brand protection through precise identification. The main aim of the project is to reduce the 
+                 production of false brands</p>
+            <p><b>Technologies used: Python | Django | CNN |</b></p>
+        <center><a href="https://github.com/Mazid2003/Logo-detection-using-deep-learning">GitHub</a></center>
+        </div>
+        <div class="project">
+            <center><img src="{{ url_for('static', filename='rod.jpg') }}" alt="Mohammad Mazid's Photo"></center>
+            <h4>Project 3: Real Time Object Detection - 2023</h4>
+            <p>It is a pre-trained object detection model developed using YOLOv8. In this project, I've developed a 
+                model to detect the objects and also displays the count of the object. Integrated the YOLOv8 model and the access of 
+                the webcam using python</p>
+            <p><b>Technologies used: Python | YOLOv8 |</b></p>
+        <center><a href="https://github.com/Mazid2003/Object-Detection-and-Counting-the-number-of-objects-using-YOLOV8-">GitHub</a></center>
+        </div>
+        <div class="project">
+            <u><h3>2. NLP Project</h3></u>
+            <center><img src="{{ url_for('static', filename='bg.jpg') }}" alt="Mohammad Mazid's Photo"></center>
+            <h4>Project 1: AI Based Content Analysis - 2024</h4>
+            <p>
+                This is a project based on Natural Language Processing(NLP). where user can give a input as pdf file 
+                and can ask queries related to the content which is present in that pdf file. Our model tries to answer 
+                those queries and retrieve the content related to that query. 
+            </p>
+            <p><b>Technologies used: NLP | Python | Flask |</b></p>
+        <center><a href="https://github.com/Mazid2003/AI-Based-Content-analysis">GitHub</a></center>
+        </div>
+        <h2>3. Hardware Projects</h2>
+        <div class="project">
+            <center><img src="{{ url_for('static', filename='sbs.jpg') }}" alt="Mohammad Mazid's Photo"></center>
+            <h4>Project 1: Smart Blind Shoe - 2023</h4>
+            <p>Smart blind shoe is a project which is useful for the visually impaired people.It can detects the objects with the help 
+                of ultrasonic sensor and sends signals to the Arduino nano.The Arduino nano then sends signals to the Buzzer,if 
+                the object/obstacle is close to the person then the Buzzer will alerts the person otherwise it remains same.</p>
+            <p><b>Technologies used: Embedded C | Sensors |</b></p>
+        <center><a href="https://github.com/Mazid2003/smart-blind-shoe">GitHub</a></center>
+        </div>
+        <div class="project">
+            <center><img src="{{ url_for('static', filename='adv.jpg') }}" alt="Mohammad Mazid's Photo"></center>
+            <h4>Project 2: Autonomous Target Striking Vehicle - 2022 </h4>
+            <p>Developed an automated vehicle prototype for military patrolling, featuring autonomous navigation and 
+                real-time monitoring to enhance security and reduces the human risk. Integrated object detection model 
+                to this autonomous vehicle for the detection of moving objects while travelling </p>
+            <p><b>Technologies used: Embedded C | GPS | Sensor Integration | ML |</b></p>
+        <center><a href="https://github.com/Mazid2003/Autonomous-target-striking-vehicle">GitHub</a></center>
+        </div>
+    </section>
+
+    <section>
+        <center><h2>Achievements</h2></center>
+        <h3>Patents</h3>
+    <ul>
+        <p>About: The Autonomous Target Striking Vehicle system is designed for patrolling and threat detection, 
+            using AI-driven GNN routing optimal navigation in complex environments.</p>
+        <ul>Patent Title - Autonomous Target Striking Vehicle </ul>
+        <ul>Patent Application No. - 202441068604 A </ul>
+        <ul>Patent Office Journal No. - 38/2024 </ul>
+        <ul>Publication Date - 20/09/2024 </ul>
+        <ul>Filing Date - 11/09/2024 </ul>  
+    <center><a href="https://tinyurl.com/mtcupt4h " class="btn">Acceptance Document</a>     </center>
+    </ul>   
+    <h3>Research & Publication</h2>
+    <ul>
+        <ul>Research Paper Title - Logo Detection Using Deep Learning - 2024</ul>
+        <ul>Paper Id - ICSCNA-0441</ul>
+    <center><a href="https://drive.google.com/file/d/1tYIHXiEAyvS2NHtUIv0Z6L9J4qXumOSt/view?usp=sharing" class="btn">Certificate</a></center>
+    </ul>
+
+    <h3>Awards</h3>
+    <ul>Awarded 1st place in Ideathon conducted by Vishnu Institute of Engineering and Technology Valiant-2022 <a href="https://drive.google.com/file/d/1EAwkYG0AEktusel--0iWXx6rfM20u4q0/view?usp=drive_link" class="btn">Certificate</a></ul>
+    <ul>Awarded 2nd place in Internal Smart India Hackathon conducted by SRGEC SIH-2023 <a href="https://drive.google.com/file/d/1s32irZ_45zOf_scmNLd18FGfaU9zhNEG/view?usp=drive_link" class="btn">Certificate</a></ul>
+    <ul>Awarded 2nd place in National Level Project Envision and Tech-Innovate Hackathon conducted by SRGEC - 2023 <a href="https://drive.google.com/file/d/1eMgEVhXg_YnZpBWTNTdWqAxxrp0jVNY5/view?usp=drive_link" class="btn">Certificate</a></ul>
+    <ul>Awarded 1st place in (Shark Tank)Ideathon Conducted by VR.Siddhartha Engineering College - 2024 <a href="https://drive.google.com/file/d/1BT7-zl85Md9PIT2Ah2d7OMajvxWRrrok/view?usp=drive_link" class="btn">Certificate</a></ul>
+
+    </section>
+
+    <section>
+        <center><h2>Certifications</h2></center>
+        <ul>
+            <ul>Programming Essentials in Python - Jun 2022   <a href="https://drive.google.com/file/d/1V_OSXHaAr4idybiU82-7Ssizd3rhJRSy/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>AZ-900 Azure Fundamentals by Microsoft - Nov 2022   <a href="https://drive.google.com/file/d/1qoE-WGbOJBaa2K5LUpX9qNBeR-s7Jvev/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>AZ-204 Azure Developer Associate by Microsoft - Mar 2023   <a href="https://drive.google.com/file/d/11Px83yTMcnM8A3W40DOqAvC-HQLTKj2L/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <a href="https://drive.google.com/file/d/1K02vRTUM8KTAFPRT9koNsnrXKY5rjH40/view?usp=drive_link" class="btn">Badge</a>
+            <ul>Software Testing 12 week course in NPTEL - Oct 2023   <a href="https://drive.google.com/file/d/1t5InbSaPMH4VL0hER9gEo1ogQBVR8p_K/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>ML101: Machine Learning at the Edge: A Practical Introduction from Arm by arm Education - Apr 2024   <a href="https://drive.google.com/file/d/1tiyuz3_G2VW9eRIlOq7kKthJMQmiBfuV/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>DS0720EN: Data Science and Machine Learning Capstone Project by IBM - Apr 2024   <a href="https://drive.google.com/file/d/1O9aOwqPzOrfJlho9Ij7xk3OF2_VD2zKe/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>MongoDB Node.js Developer Path for Smartbridge - Jul 2024   <a href="https://drive.google.com/file/d/1jDAD_wYyUhbJoHLbvB-jlUjN4B3QOAKu/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>AWS Academy Cloud Foundations - Jul 2024   <a href="https://drive.google.com/file/d/1WiSAOEaFNJT1JMg4YpacO_7TqQ3FEO-q/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>AWS Academy Data Engineering - Jul 2024   <a href="https://drive.google.com/file/d/1WtktUcRiFuI5gvEW64eYy7Vozj_N12Yg/view?usp=sharing" class="btn">Certificate</a></ul>
+            <ul>AWS Academy Cloud Architecting - Sep 2024   <a href="https://drive.google.com/file/d/1cbaONiceDO03YGpi4qLx1sPrUrta_MjY/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>Java Programming by Great Learning Academy - Sep 2024   <a href="https://drive.google.com/file/d/1IikX63Cgxbb4_lftuyuOJFDFhOCZUyyo/view?usp=drive_link" class="btn">Certificate</a></ul>
+            <ul>Introduction to Database and SQL by Great Learning Academy - Sep 2024   <a href="https://drive.google.com/file/d/1AGOozi6Q41upXfrVWfQJ9ciVwwVNZAxT/view?usp=drive_link" class="btn">Certificate</a></ul>
+            
+        </ul>
+    </section>
+
+    <section class="form-section">
+        <center><h2>Contact Me</h2></center>
+        <form action="/" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Mobile:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <center>
+        <section class="social-links">
+            <a href="https://www.linkedin.com/in/mohammadmazid">LinkedIn</a></li>
+            <a href="https://github.com/Mazid2003">GitHub</a></li>
+        </section>    
+    </center>
+    
+    <button class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
+
+
+    <footer>
+        <p>&copy; 2025 Mohammad Mazid. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    function toggleTheme() {
+    const root = document.documentElement;
+    if (root.hasAttribute('data-theme')) {
+        root.removeAttribute('data-theme');
+    } else {
+        root.setAttribute('data-theme', 'dark');
+    }
+}
+
+</script>
+
+</html>
+
