@@ -8,6 +8,7 @@ The 3 folders are:
 In this folder, the users data will be stored.
 2. Static:
 This folder consists of styling part(.css file) of the portfolio and images(.jpg files).
+
 3.templates:
 This folder consists of (.html file) and in that html file javascript code also included
 
