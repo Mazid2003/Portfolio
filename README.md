@@ -16,6 +16,9 @@ And 1 file is app.py file where is consists of flask code.
 To execute this code make sure that folder structure should be correct.
 Then open terminal in the Visual Code and select your project directory then type "python app.py".
 
+you can check my portfolio on the link below.
+"mazidmohammad.pythonanywhere.com"
+
 
 
  
